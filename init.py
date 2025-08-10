@@ -140,7 +140,7 @@ def initializer():
             if not isinstance(model, (CustomEENet, EENet)):
                 set_complexity(model)
     else:
-        model = torch.load(args.load_model)
+        model = torch.load(args.load_model, weights_only=False)
         if not isinstance(model, (CustomEENet, EENet)):
             set_complexity(model)
         else:
