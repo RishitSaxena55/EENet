@@ -77,8 +77,4 @@ Example training command:
 $ python main.py --model eenet110 --dataset cifar10 --num-ee 8 --epochs 50
 ```
 
-## The Code Contents
-
-ResNet based EENet models are implemented in the "eenet.py" file. Some initialization and parameter parsing works can be found in the "init.py" file. The "main.py" creates and initializes an instance of the specified model. Details of training and testing procedures are also implemented in this file. The "utils.py" includes the helping methods. Finally, "flops_counter.py" counts the number of floating point operations. "flops_counter.py" are taken from [this repo](https://github.com/sovrasov/flops-counter.pytorch).
-
 
