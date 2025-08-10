@@ -1,6 +1,3 @@
-"""
-ResNet models
-"""
 from torch import  nn
 from torch.utils import model_zoo
 from flops_counter import get_model_complexity_info

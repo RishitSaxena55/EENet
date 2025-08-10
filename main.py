@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-Training and validation of EENet
-"""
 from __future__ import print_function
 import time
 import csv

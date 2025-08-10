@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-Utilities are defined in this code.
-"""
 import os
 import csv
 import torch

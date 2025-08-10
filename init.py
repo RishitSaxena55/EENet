@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-initializer methods are defined in this code.
-"""
 import os
 import csv
 import argparse

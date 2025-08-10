@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-07 Nov 2019
-"""
 import argparse
 import csv
 

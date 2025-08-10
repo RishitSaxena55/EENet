@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-Loss functions used in EENet training
-"""
 import sys
 import torch
 import torch.nn.functional as F

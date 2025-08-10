@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-Custom EENet model
-"""
 from torch import nn
 
 __all__ = ['CustomEENet', 'eenet8']

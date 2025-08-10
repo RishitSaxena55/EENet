@@ -1,7 +1,3 @@
-"""
-Edanur Demir
-EENet models
-"""
 from torch import nn
 from flops_counter import get_model_complexity_info
 from resnet import ResNet, ResNet6n2
