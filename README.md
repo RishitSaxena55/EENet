@@ -1,15 +1,5 @@
 # EENets: Early Exit Convolutional Neural Networks
-This repository contains PyTorch implementation of EENets: Early Exit Convolutional Neural Network. ([the thesis](https://drive.google.com/file/d/1sPdSzL36BB5gAUt3pyath2U-dIRf4Oji/view?usp=drive_link) and [the slides](https://drive.google.com/file/d/16fZHWsOeRNbUWCpVMwEnjrfNPTDFF3e9/view?usp=drive_link))
-
-## Getting Started
-
-The codes are developed with python35 environment and tested on Windows and Linux with cuda-9 and cuda-10. The development environment consists of
- * i7-6700HQ CPU processor with 16GB RAM
- * NVIDIA Tesla P100 16GB.
-
-### Prerequisites
-
-Pytorch environment can be installed via [the website](https://pytorch.org/get-started/locally/).
+Built Early Exit Networks with ResNet Backbone for resource efficient training without compromising efficiency.
 
 ### Datasets
 
@@ -88,8 +78,4 @@ $ python main.py --model eenet110 --dataset cifar10 --num-ee 8 --epochs 50
 
 ResNet based EENet models are implemented in the "eenet.py" file. Some initialization and parameter parsing works can be found in the "init.py" file. The "main.py" creates and initializes an instance of the specified model. Details of training and testing procedures are also implemented in this file. The "utils.py" includes the helping methods. Finally, "flops_counter.py" counts the number of floating point operations. "flops_counter.py" are taken from [this repo](https://github.com/sovrasov/flops-counter.pytorch).
 
-## Authors
 
-* **Edanur Demir** - *EENets: Early Exit Convolutional Neural Networks* - [eksuas](https://github.com/eksuas)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
