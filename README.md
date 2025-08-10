@@ -1,6 +1,9 @@
 # EENets: Early Exit Convolutional Neural Networks
 Built Early Exit Networks with ResNet Backbone for resource efficient training without compromising efficiency.
 
+### References
+This implementation is based on the paper https://arxiv.org/abs/2409.05336
+
 ### Datasets
 
 The models can be trained and tested with MNIST, CIFAR10, SVHN, Tiny-ImageNet and ImageNet datasets. Datasets are expected to be in the directory "../data".
