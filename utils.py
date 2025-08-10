@@ -282,6 +282,7 @@ def adaptive_learning_rate(args, optimizer, epoch):
     This method adjusts the learning rate of training. The same configurations as the ResNet paper.
     """
     # Default SGD: lr=? momentum=0, dampening=0, weight_decay=0, nesterov=False
+    learning_rate = 0
     if args.optimizer == "SGD":
         # Assummed batch-size is 128. Converge until 165 epochs
 
